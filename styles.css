@@ -1,0 +1,88 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: auto;
+    max-width: 800px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+header {
+    text-align: center; 
+
+}
+header h1 {
+    letter-spacing: .5rem;
+
+}
+
+header h2 {
+    letter-spacing: 0.75rem;
+}
+
+.header-info {
+    display:flex;
+    width: 100%;
+
+}
+
+.header-other {
+    flex-grow:  1;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+header section ul {
+    list-style: none;
+}
+
+#blogs {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 1%;
+    box-shadow: 3px 3px black;
+}
+
+.new-post {
+    background-color: burlywood;
+}
+
+.existing-post {
+    padding: 10px;
+    margin: 5px;
+    background-color: lightgrey;
+
+}
+
+#sponsored-content {
+    padding: 10px;
+    margin: 5px;
+    background-color: cadetblue;
+
+}
+
+main section {
+    padding: 0.5rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-gap: 1rem;
+}
+
+.grid-container div {
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    box-shadow: 3px 3px black;
+    border-radius: 0.75rem ;
+}
+
+footer {
+    text-align: center;
+    margin: 1.5rem;
+}
